@@ -64,13 +64,13 @@ export default function Login() {
         {/* Left Side - Image */}
         <div className="hidden lg:block lg:w-1/2 relative">
           <Image
-            src="/images/login-bg.jpg"
-            alt="Students"
+            src="/images/s11.jpg"
+            alt="I Care Register"
             fill
             className="object-cover"
             priority
           />
-          <div className="absolute top-20 left-1/2 transform -translate-x-1/2">
+          {/* <div className="absolute top-20 left-1/2 transform -translate-x-1/2">
             <Image
               src="/images/dekend-logo.png"
               alt="Dekend Logo"
@@ -78,7 +78,7 @@ export default function Login() {
               height={40}
               priority
             />
-          </div>
+          </div> */}
         </div>
 
         {/* Right Side - Login Form */}
@@ -87,7 +87,7 @@ export default function Login() {
             <div className="mb-8">
               <Link
                 href="/"
-                className="text-gray-500 hover:text-gray-700 flex items-center gap-2 mb-6"
+                className="text-blue-600 hover:text-red-600 flex items-center gap-2 mb-6"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -345,7 +345,7 @@ export default function Login() {
               {/* Submit Button */}
               <button
                 type="submit"
-                className="w-full bg-green-500 text-white py-3 rounded-lg hover:bg-green-600 transition-colors mt-6"
+                className="w-full bg-blue-500 text-white py-3 rounded-lg hover:bg-red-600 transition-colors mt-6"
               >
                 ดำเนินการต่อ
               </button>
@@ -383,7 +383,7 @@ export default function Login() {
                 มีบัญชีอยู่แล้ว?{" "}
                 <Link
                   href="/login"
-                  className="text-green-500 hover:text-green-600"
+                  className="text-blue-500 hover:text-red-600"
                 >
                   เข้าสู่ระบบ
                 </Link>

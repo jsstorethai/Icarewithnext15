@@ -12,10 +12,10 @@ export default function page() {
     {/* <Head /> */}
     <Hero/>
     <AboutUs/>
-    <CompanyLogos/>
+    {/* <CompanyLogos/> */}
     <NewsUpdate/>
     
-    <Resume />
+    {/* <Resume /> */}
   </main>
     
   )

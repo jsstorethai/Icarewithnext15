@@ -8,12 +8,13 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="space-y-2">
-              <h2 className="text-lg font-bold text-gray-900">dekend.com</h2>
+              <h2 className="text-lg font-bold text-gray-900">I Care.com</h2>
               <p className="text-sm text-gray-600">
-                อินเทิร์นที่ใช่ตอบ ตอบ
+                 "I Care เพื่อนกัน"
               </p>
               <p className="text-sm text-gray-600">
-                เว็บไซต์ที่ฝึกงาน หางาน เพื่อนักศึกษาและบุคลากรที่มองหาที่ฝึกงานและตำแหน่งงานจากบริษัทต่างๆ ครบทุกสายงาน
+                หาเพื่อนเที่ยว ทำธุระ ขับรถ ทานข้าว ปรึกษาพูดคุย พาไปหาหมอ!มาเป็นส่วนหนึ่งของ "I Care เพื่อนกัน" สมัครลงทะเบียนได้แล้ววันนี้!
+มาพร้อมระบบ Ai จับคู่งานกับธุระของคุณ ได้ที่นี่
               </p>
             </div>
           </div>
@@ -55,7 +56,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t text-sm text-center text-gray-600">
-          © Copyright {new Date().getFullYear()} DEKEND, dekend.com is owned and operated by Pasition Co., Ltd
+          © Copyright {new Date().getFullYear()} Jittavee, I Care.com
         </div>
       </div>
     </footer>

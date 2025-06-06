@@ -18,9 +18,9 @@ export default function Navbar() {
                     <Link href="/find-internship" className="text-gray-600 hover:text-blue-600">
                         ค้นหาเพื่อนทำธุระ
                     </Link>
-                    <Link href="/articles" className="text-gray-600 hover:text-blue-600">
+                    {/* <Link href="/articles" className="text-gray-600 hover:text-blue-600">
                         บทความ
-                    </Link>
+                    </Link> */}
                     <Link href="/contact" className="text-gray-600 hover:text-blue-600">
                         ติดต่อเรา
                     </Link>
@@ -28,11 +28,11 @@ export default function Navbar() {
 
                 {/* Auth Login/Register Button */}
                 <div className='flex items-center space-x-4'>
-                    <Link href="/login" className="text-gray-600 hover:text-blue-800">
+                    <Link href="/login" className="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition-colors">
                         เข้าสู่ระบบ
                     </Link>
                     <Link href="/register" 
-                    className="bg-red-700 text-white px-4 py-2 rounded-lg hover:bg-blue-800">
+                    className="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition-colors">
                         ลงทะเบียน
                     </Link>
                 </div>

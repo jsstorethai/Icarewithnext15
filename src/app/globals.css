@@ -63,7 +63,7 @@ body {
 }
 
 .animate-float-3 {
-  animation: float-3 4.5s ease-in-out infinite;
+  animation: float-3 2s ease-in-out infinite;
 }
 
 /* Animate สำหรับ Company Logo Section */
@@ -76,19 +76,14 @@ body {
   }
 }
 
-@keyframes slideLeftToRight {
-  from {
-    transform: translateX(-50%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
+
+
 
 .animate-slideRightToLeft {
-  animation: slideRightToLeft 45s linear infinite;
+  animation: slideRightToLeft 60s linear infinite;
 }
 
 .animate-slideLeftToRight {
-  animation: slideLeftToRight 45s linear infinite;
+  animation: slideLeftToRight 60s linear infinite;
 }
+

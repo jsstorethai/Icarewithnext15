@@ -43,13 +43,13 @@ export default function LoginPage() {
       {/* Left Side - Image */}
       <div className="hidden lg:block lg:w-1/2 relative">
         <Image
-          src="/images/login-bg.jpg"
-          alt="Students"
+          src="/images/s9.jpg"
+          alt="I Care Login"
           fill
           className="object-cover"
           priority
         />
-        <div className="absolute top-20 left-1/2 transform -translate-x-1/2">
+        {/* <div className="absolute top-20 left-1/2 transform -translate-x-1/2">
           <Image
             src="/images/dekend-logo.png"
             alt="Dekend Logo"
@@ -57,14 +57,14 @@ export default function LoginPage() {
             height={40}
             priority
           />
-        </div>
+        </div> */}
       </div>
 
       {/* Right Side - Form */}
       <div className="w-full lg:w-1/2 flex flex-col items-center justify-center px-6 lg:px-16 py-12">
         <div className="w-full max-w-md">
           <div className="mb-8">
-            <Link href="/" className="text-gray-500 hover:text-gray-700 flex items-center gap-2 mb-6">
+            <Link href="/" className="text-blue-600 hover:text-red-600 flex items-center gap-2 mb-6">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
               </svg>
@@ -130,14 +130,14 @@ export default function LoginPage() {
                 </label>
               </div>
 
-              <Link href="/forgot-password" className="text-sm text-green-500 hover:text-green-600">
+              <Link href="/forgot-password" className="text-sm text-blue-500 hover:text-red-600">
                 ลืมรหัสผ่าน?
               </Link>
             </div>
 
             <button
               type="submit"
-              className="w-full bg-green-500 text-white py-3 rounded-lg hover:bg-green-600 transition-colors mt-6"
+              className="w-full bg-blue-500 text-white py-3 rounded-lg hover:bg-red-600 transition-colors mt-6"
             >
               เข้าสู่ระบบ
             </button>
