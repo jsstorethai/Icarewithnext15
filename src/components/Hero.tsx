@@ -31,7 +31,7 @@ const Hero = () => {
                 <div className="absolute top-8 right-0 w-[180px] h-[180px] animate-float-2">
                   <div className="relative w-full h-full">
                     <Image
-                      src="/images/s2.jpg"
+                      src="/images/s8.jpg"
                       alt="Professional in white shirt"
                       fill
                       className="object-contain"
@@ -68,7 +68,7 @@ const Hero = () => {
                 <div className="absolute top-12 right-0 w-[280px] h-[280px] animate-float-2">
                   <div className="relative w-full h-full">
                     <Image
-                      src="/images/s2.jpg"
+                      src="/images/s8.jpg"
                       alt="Professional in white shirt"
                       fill
                       className="object-contain"

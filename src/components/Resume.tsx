@@ -8,21 +8,20 @@ const Resume = () => {
           {/* Left Content */}
           <div>
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              ฝากเรซูเม่ไว้กับเรา <span className="text-green-500">ได้งาน ที่ฝึกงาน ชัวร์ 100%</span>
+              ลงทะเบียนกับเรา <span className="text-blue-500">ได้งาน และรับงาน ชัวร์ 100%</span>
             </h2>
             <h3 className="text-xl text-gray-900 mb-6">
-              สร้างเรซูเม่ออนไลน์ กับ Dekend ดียังไง ?
+              สร้างบัญชี!ผู้หางาน/ผู้รับงาน สมัครสมาชิกเพื่อสร้างบัญชีฟรี
             </h3>
             <ul className="space-y-4">
               {[
                 'เรามี AI แนะนำงาน ช่วยคัดกรองงานที่เหมาะกับโปรไฟล์ของคุณ มาให้เลือกอัตโนมัติ',
-                'แชร์เรซูเม่ของท่านในรูปแบบ Link URL หรือ QR Code ได้เลย',
-                'อัพเดตแจ้งเตือนอัตโนมัติ เมื่อบริษัทเรียกดูเรซูเม่ หรือคุณสมัครงาน',
-                'กราฟแสดงผล จำนวนบริษัทที่เปิดดูเรซูเม่ของคุณแต่ละวัน',
+                'อัพเดตแจ้งเตือนอัตโนมัติ ',
+                'กราฟแสดงผล จำนวนคนที่เปิดดูPostงานของคุณแต่ละวัน',
                 'Encryption Resume เข้ารหัสบัญชี ความปลอดภัยสูง'
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="w-6 h-6 text-red-500 flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7.75 12.75L10 15.25L16.25 8.75" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"/>
                   </svg>
@@ -41,7 +40,7 @@ const Resume = () => {
           {/* Right Image */}
           <div className="relative h-[400px] lg:h-[500px]">
             <Image
-              src="/images/trainee-new.jpg"
+              src="/images/s2.jpg"
               alt="Resume Preview"
               fill
               className="object-contain"

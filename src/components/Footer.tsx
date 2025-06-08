@@ -21,7 +21,7 @@ const Footer = () => {
 
           {/* For Company */}
           <div>
-            <h3 className="font-bold text-lg mb-4 text-gray-900">สำหรับบริษัท</h3>
+            <h3 className="font-bold text-lg mb-4 text-gray-900">สำหรับประกาศงานฟรี</h3>
             <ul className="space-y-2 text-sm">
               <li><Link href="#" className="text-gray-600 hover:text-green-500">ลงประกาศงาน</Link></li>
               <li><Link href="#" className="text-gray-600 hover:text-green-500">อัตราค่าบริการ</Link></li>
@@ -30,11 +30,11 @@ const Footer = () => {
 
           {/* For Students */}
           <div>
-            <h3 className="font-bold text-lg mb-4 text-gray-900">สำหรับนักศึกษา, ผู้หางาน</h3>
+            <h3 className="font-bold text-lg mb-4 text-gray-900">สำหรับประกาศงานฟรี, ผู้หางาน</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="#" className="text-gray-600 hover:text-green-500">สร้างเรซูเม่ออนไลน์</Link></li>
+              <li><Link href="#" className="text-gray-600 hover:text-green-500">สร้างงานออนไลน์</Link></li>
               <li><Link href="#" className="text-gray-600 hover:text-green-500">ค้นหางาน</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-green-500">ค้นหาที่ฝึกงาน</Link></li>
+              <li><Link href="#" className="text-gray-600 hover:text-green-500">ค้นหาเพื่อน</Link></li>
             </ul>
           </div>
 
@@ -42,13 +42,13 @@ const Footer = () => {
           <div>
             <h3 className="font-bold text-lg mb-4 text-gray-900">คำค้นหายอดนิยม</h3>
             <div className="flex flex-wrap gap-2 text-sm">
-              <Link href="#" className="px-3 py-1.5 bg-gray-100 text-gray-600 hover:text-green-500 rounded-full">ฝึกงาน</Link>
-              <Link href="#" className="px-3 py-1.5 bg-gray-100 text-gray-600 hover:text-green-500 rounded-full">หาที่ฝึกงาน</Link>
-              <Link href="#" className="px-3 py-1.5 bg-gray-100 text-gray-600 hover:text-green-500 rounded-full">เว็บหาที่ฝึกงาน</Link>
+              <Link href="#" className="px-3 py-1.5 bg-gray-100 text-gray-600 hover:text-green-500 rounded-full">หาเพื่อนทำธุระ</Link>
+              <Link href="#" className="px-3 py-1.5 bg-gray-100 text-gray-600 hover:text-green-500 rounded-full">หางาน</Link>
+              <Link href="#" className="px-3 py-1.5 bg-gray-100 text-gray-600 hover:text-green-500 rounded-full">เว็บหาเพื่อน</Link>
               <Link href="#" className="px-3 py-1.5 bg-gray-100 text-gray-600 hover:text-green-500 rounded-full">ลงประกาศงานฟรี</Link>
               <Link href="#" className="px-3 py-1.5 bg-gray-100 text-gray-600 hover:text-green-500 rounded-full">งานสมัครงานออนไลน์</Link>
-              <Link href="#" className="px-3 py-1.5 bg-gray-100 text-gray-600 hover:text-green-500 rounded-full">นักศึกษาฝึกงาน</Link>
-              <Link href="#" className="px-3 py-1.5 bg-gray-100 text-gray-600 hover:text-green-500 rounded-full">ค้นหาพนักงาน</Link>
+              <Link href="#" className="px-3 py-1.5 bg-gray-100 text-gray-600 hover:text-green-500 rounded-full">ไปหาหมอ</Link>
+              <Link href="#" className="px-3 py-1.5 bg-gray-100 text-gray-600 hover:text-green-500 rounded-full">ค้นหาเพื่อน</Link>
               <Link href="#" className="px-3 py-1.5 bg-gray-100 text-gray-600 hover:text-green-500 rounded-full">งาน Part Time</Link>
             </div>
           </div>

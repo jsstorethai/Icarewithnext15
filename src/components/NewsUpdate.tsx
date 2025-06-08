@@ -10,24 +10,24 @@ interface NewsItem {
 
 const newsItems: NewsItem[] = [
   {
-    title: 'อัพเดทระบบประจำ เดือน สิงหาคม 2567',
+    title: 'ข่าวสาร เดือน มิถุนายน 2568',
     image: '/images/news/news1.webp',
     link: '#',
     isNew: true
   },
   {
-    title: 'Dekend ครบรอบก่อนตั้ง Yamaha Thailand 2025',
+    title: 'ครบรอบ Yamaha Thailand 2025',
     image: '/images/news/news2.webp',
     link: '#',
     isNew: true
   },
   {
-    title: 'ภาษีเรื่องสำคัญที่นักศึกษาก็ควรเรียนรู้ไว้"',
+    title: 'ภาษีเรื่องสำคัญที่นักศึกษาก็ควรเรียนรู้"',
     image: '/images/news/news3.jpg',
     link: '#',
   },
   {
-    title: '6 สิ่งที่นักศึกษาควรมีติดตัวไว้ หลังจากฝึกงาน"',
+    title: '6 สิ่งที่นักศึกษาควรมีติดตัวไว้ "',
     image: '/images/news/news4.jpg',
     link: '#',
   }
@@ -58,14 +58,14 @@ const NewsUpdate = () => {
                 />
                 {item.isNew && (
                   <div className="absolute top-3 right-3">
-                    <span className="bg-green-500 text-white text-sm px-3 py-1 rounded-full">
+                    <span className="bg-red-500 text-white text-sm px-3 py-1 rounded-full">
                       New Update
                     </span>
                   </div>
                 )}
               </div>
               <div className="p-4">
-                <h3 className="font-medium text-gray-900 group-hover:text-green-600 transition-colors">
+                <h3 className="font-medium text-gray-900 group-hover:text-red-600 transition-colors">
                   {item.title}
                 </h3>
               </div>
